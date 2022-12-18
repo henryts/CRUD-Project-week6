@@ -78,7 +78,7 @@ app.get('/sign-up', (req, res) => {
         }
     }); 
 
-//USER POST
+//USER POST *********
     app.post('/home',async(req,res) => {
         const mail = req.body.email;
         const user = await users.findOne({email:mail});    
