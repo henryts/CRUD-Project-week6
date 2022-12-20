@@ -198,9 +198,6 @@ app.post('/sign-up', async (req,res)=>{
      }
 });
 
-// const userRouter=require('./routes/users');
-// app.use("/",userRouter);
-
 app.listen(3000, function(){
     console.log('listening to port  3000');
    });
